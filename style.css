@@ -7,14 +7,36 @@
 }
 
 body{
-	background-color: #BurlyWood;
+	background-color: white;
 }
 
+
 .hotbar{
-	background-color: BlanchedAlmond ;
+	
+	background-color: #474747 ;
 	text-align: center;
 	padding: 3px 0;
 	width: 100%;
+}
+
+.hotbar a{
+	background-color: #363636;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	font-family: 'Raleway', Papyrus, sans-serif;
+	margin: 7px 5px;
+	padding: 5px;
+	text-align: center;
+	text-transform: uppercase;
+	border: 1px solid black;
+	border-radius: 3px;
+	color: #A8A7A7;
+}
+
+.hotbar a:hover{
+	background: #000;
+	color: #FFF;
 }
 
 .banner{
@@ -39,28 +61,34 @@ body{
 	font-style: italic;
 }
 
-#nib{
+.nib{
 	color: red;
 }
 
-.hotbar a{
-	text-decoration: none;
-	display: inline-block;
-	font-size: 16px;
-	font-family: 'Raleway', Papyrus, sans-serif;
-	margin: 7px 5px;
-	padding: 5px;
-	text-align: center;
-	text-transform: uppercase;
-	border: 1px solid black;
-	border-radius: 3px;
+.content {
+	
+	margin: 10px 25%;
+	height: 500px;
+	
+	font-family: Raleway;
 }
 
-.hotbar a:hover{
-	background: #000;
-	color: #FFF;
+.stuff{
+	margin-top: 10px;
+	text-align:center;
 }
-
+.stuff p{
+	margin-top: 10px;
+	text-align: left;
+	padding: 0px 200px;
+}
+.photo{
+	margin: 0 31%;
+	height: 300px;
+	width: 300px;
+	background-image: url("school.jpg");
+	border-radius: 100%;
+}
 
 #logo{
 	text-transform: lowercase;
