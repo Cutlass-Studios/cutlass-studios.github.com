@@ -40,7 +40,7 @@ body{
 }
 
 .banner{
-  background-image: url("hacker.png");
+  background-image: url("photos/hacker.png");
   background-size: cover;
   background-position: bottom center;
   height: 500px;
@@ -86,7 +86,7 @@ body{
 	margin: 0 31%;
 	height: 300px;
 	width: 300px;
-	background-image: url("school.jpg");
+	background-image: url("photos/school.jpg");
 	border-radius: 100%;
 }
 
